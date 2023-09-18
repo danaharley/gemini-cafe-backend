@@ -2,12 +2,12 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const ORIGIN = "http://localhost:3001";
-// const ORIGIN = [
-//   "https://gemini-cafe.fly.dev",
-//   "https://d2f3dnusg0rbp7.cloudfront.net",
-//   "https://app.sandbox.midtrans.com",
-// ];
+// const ORIGIN = "http://localhost:3001";
+const ORIGIN = [
+  "https://gemini-cafe-frontend.vercel.app",
+  "https://d2f3dnusg0rbp7.cloudfront.net",
+  "https://app.sandbox.midtrans.com",
+];
 
 const PORT = process.env.PORT || 3000;
 
